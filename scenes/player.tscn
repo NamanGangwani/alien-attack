@@ -9,6 +9,7 @@ height = 92.0
 
 [node name="Player" type="CharacterBody2D" unique_id=921168507]
 visible = false
+collision_mask = 3
 motion_mode = 1
 script = ExtResource("1_g2els")
 
