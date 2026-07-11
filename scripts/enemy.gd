@@ -7,6 +7,3 @@ func _ready() -> void:
 	
 func _physics_process(delta: float) -> void:
 	global_position.x -= speed * delta
-
-func _on_screen_existed() -> void:
-	queue_free()
