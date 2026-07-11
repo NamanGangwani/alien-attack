@@ -18,3 +18,7 @@ texture = ExtResource("1_3341w")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1033788426]
 rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_agf72")
+
+[node name="VisibleNotifier" type="VisibleOnScreenNotifier2D" parent="." unique_id=36227198]
+position = Vector2(-36.666664, -10)
+rect = Rect2(-18.333332, -10, 33.333336, 33.333336)
