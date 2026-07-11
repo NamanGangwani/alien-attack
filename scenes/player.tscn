@@ -8,6 +8,7 @@ radius = 18.0
 height = 92.0
 
 [node name="Player" type="CharacterBody2D" unique_id=921168507]
+visible = false
 motion_mode = 1
 script = ExtResource("1_g2els")
 
@@ -19,3 +20,5 @@ texture = ExtResource("1_3vyb7")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=940317918]
 position = Vector2(8, 0)
 shape = SubResource("CapsuleShape2D_g2els")
+
+[node name="RocketContainer" type="Node" parent="." unique_id=104227615]
