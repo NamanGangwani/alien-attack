@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dd274xv10kqgo" path="res://assets/textures/bg.png" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://c72bg38ufkcj8" path="res://scenes/player.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://bm353x3ml1fhq" path="res://scenes/enemy.tscn" id="3_lnu2h"]
 
 [node name="Game" type="Node2D" unique_id=1721060807]
 
@@ -14,3 +15,6 @@ stretch_mode = 1
 [node name="Player" parent="." unique_id=921168507 instance=ExtResource("2_yqjtg")]
 visible = true
 position = Vector2(56, 363)
+
+[node name="Enemy" parent="." unique_id=1733105253 instance=ExtResource("3_lnu2h")]
+position = Vector2(1054, 359)
